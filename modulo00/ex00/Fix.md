@@ -1,0 +1,2 @@
+Não executar diretamente o input do usuário, não executar conteúdo dinâmico como código.
+Para exibir HTML que vem do usuário é necessário sanitizar o conteúdo (limpar e tornar seguro um conteúdo que vem do usuário antes de usar na página)

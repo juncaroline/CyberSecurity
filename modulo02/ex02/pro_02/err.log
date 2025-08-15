@@ -1,0 +1,21 @@
+docker: 'docker stop' requires at least 1 argument
+
+Usage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]
+
+See 'docker stop --help' for more information
+docker: 'docker rm' requires at least 1 argument
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...]
+
+See 'docker rm --help' for more information
+time="2025-08-14T17:37:42-03:00" level=warning msg="/nfs/homes/cabo-ram/imersao/modulo02/ex02/pro_02/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+time="2025-08-14T17:37:42-03:00" level=warning msg="/nfs/homes/cabo-ram/imersao/modulo02/ex02/pro_02/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ web Pulling 
+ web Warning pull access denied for mine, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+ web  Built
+ Network pro_02_default  Creating
+ Network pro_02_default  Created
+ Container pro_02-web-1  Creating
+ Container pro_02-web-1  Created
+ Container pro_02-web-1  Starting
+ Container pro_02-web-1  Started

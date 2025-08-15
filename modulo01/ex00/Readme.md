@@ -1,0 +1,4 @@
+Tipo de vulnerabilidade: SSTI - Server-Side Template Injection
+
+Esse tipo de vulnerabilidade ocorre quando um input do usuário é inserido diretamente em um template do lado do servidor sem sanitização, permitindo que o hacker injete código que será executado no servidor quando o template for renderizado.
+Um ataque desse tipo de vulnerabilidade tem um impacto severo e pode expor um site a diversos ataques. Invasores podem executar código remotamente e assumir controle total dos servidores de back-end podendo assim lançar ataques adicionais à infraestrutura interna, ou ler dados ou arquivos confidenciais armazenados no servidor

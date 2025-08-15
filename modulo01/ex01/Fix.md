@@ -1,0 +1,3 @@
+- Desabilitar DTDs e entidades externas no parser XML
+- Validação de conteúdo
+- Monitoramento e logs

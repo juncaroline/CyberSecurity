@@ -1,0 +1,4 @@
+- A melhor defesa para proteger contra CSRF é usar tokens CSRF, na qual o servidor gera um token aleatório por sessão (ou requisição).
+- Verificar o cabeçalho Origin ou Referer, e o servidor verifica se o valor é o mesmo do domínio confiável.
+- Não usar cookies para autenticação. Em vez de cookies, o app pode usar tokens de autenticação no header (Authorization: Bearer <token>).
+- Usar autenticação de passo duplo para ações críticas.
